@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.bawei.okhttpdemo.ChannelActivity">
+<Button
+    android:id="@+id/back"
+    android:onClick="back"
+    android:text="返回"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <GridView
+    android:id="@+id/one"
+    android:numColumns="4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></GridView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <GridView
+        android:id="@+id/two"
+        android:numColumns="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
+</LinearLayout>
